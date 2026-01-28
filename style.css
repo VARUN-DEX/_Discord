@@ -200,3 +200,94 @@ h3{
     border-radius: 20px ;
     background-color: white;
 }
+.footer {
+  background: linear-gradient(180deg, #3f46ad, #5865f2);
+  padding: 70px 60px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* LEFT */
+.footer-left {
+  max-width: 260px;
+}
+
+.dis_logo {
+  width: 48px;
+  margin-bottom: 40px;
+  background-image: url(discord_logo__discord__logo__discordlogo__logos_-removebg-preview.png);
+  height: 100px;
+  background-size: 100px;
+  width: 100px;
+}
+
+.social-title {
+  color: #b5b9ff;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 18px;
+  font-size: 22px;
+}
+
+.social-icons i {
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.social-icons i:hover {
+  opacity: 0.7;
+}
+
+/* RIGHT */
+.footer-right {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column h4 {
+  color: #b5b9ff;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+.discord_name{
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 220px;
+    font-weight: 900;
+    color: #e3e5ff;
+    letter-spacing: -8px;
+}
+.media{
+    margin-left: -40px;
+}
+.media img{
+    margin-left: 40px;
+}
