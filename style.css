@@ -16,12 +16,13 @@ body{
     /* border: 1px solid; */
     background-image: url(Screenshot_2026-01-27_163013-removebg-preview.png);
     background-size: 200px;
+    position: fixed;
 }
 .link{
     height: 50px;
     width: 1100px;
     /* border: 1px solid ; */
-    margin-left: 10px;
+    margin-left: 200px;
 }
 .link ul{
     display: flex;
@@ -49,6 +50,9 @@ body{
     /* border: 1px solid; */
     padding: 10px;
     margin-left: 10px;
+    position: fixed;
+    left: 1320px;
+    top: 40px;
 }
 .opendiscord a{
     font-size: larger;
@@ -70,6 +74,7 @@ body{
     background-image: url(bhopu.png);
     background-size: 250px;
     /* border: 1px solid; */
+    margin-left: 200px;
 }
 .contant{
     height: 660px;
